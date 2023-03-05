@@ -1,0 +1,22 @@
+scalar ObjectId
+
+type User {
+  _id: ObjectId!
+  name: String!
+  email: String!
+  password: String!
+}
+
+type Query {
+  getUser(_id: ObjectId!): User
+}
+
+input UserInput {
+  name: String!
+  email: String!
+  password: String!
+}
+
+type Mutation {
+  createUser(input: UserInput!): User!
+}
