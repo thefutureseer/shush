@@ -35,14 +35,14 @@ app.use('/graphql', graphqlHTTP({
 }));
 
 app.get('/', (req, res) => {
-  res.send('hello spirit');
+  res.send('<h1>hello spirit<h1>');
 })
 
 // Altair GraphQL Client
 // Uncomment the following lines to enable Altair GraphQL Client
 // To access it, navigate to http://localhost:{PORT}/altair
-const { altairExpress } = require('altair-express-middleware');
-app.use('/altair', altairExpress({ endpointURL: '/graphql' }));
+// const { altairExpress } = require('altair-express-middleware');
+// app.use('/altair', altairExpress({ endpointURL: '/graphql' }));
 
 // Start server
 app.listen(port, () => {
@@ -54,11 +54,6 @@ app.listen(port, () => {
 // If you uncomment the playground property, 
 // you should comment out the lines for 
 // Altair GraphQL Client, and vice versa.
-
-
-
-
-
 
 
 
