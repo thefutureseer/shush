@@ -31,7 +31,7 @@ app.use('/graphql', graphqlHTTP({
   // GraphQL Playground
   // Uncomment the following line to enable GraphQL Playground
   // To access it, navigate to http://localhost:{PORT}/graphql
-  playground: true,
+  // playground: true,
 }));
 
 app.get('/', (req, res) => {
@@ -41,8 +41,8 @@ app.get('/', (req, res) => {
 // Altair GraphQL Client
 // Uncomment the following lines to enable Altair GraphQL Client
 // To access it, navigate to http://localhost:{PORT}/altair
-// const { altairExpress } = require('altair-express-middleware');
-// app.use('/altair', altairExpress({ endpointURL: '/graphql' }));
+const { altairExpress } = require('altair-express-middleware');
+app.use('/altair', altairExpress({ endpointURL: '/graphql' }));
 
 // Start server
 app.listen(port, () => {
