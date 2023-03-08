@@ -241,3 +241,6 @@ PLEASE NOTE: Of course, some of these religions could arguably fit into multiple
 * Wicca
 * Druidry
 * Asatru
+
+
+*drag and drop and hide religions.
