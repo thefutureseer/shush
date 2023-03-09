@@ -1,9 +1,21 @@
-import React from 'react';
+import React, {Component} from 'react';
 import logo from '../images/logo.svg';
 import '../css/App.css'
+import text from '../text/basics.txt';
 
-export default function Dash(){
+export default class Dash extends Component{
+ constructor(props) {
+  super(props);
+  this.state = {}
+ };
+ componentDidMount () {
+  const Jtext = JSON.stringify(this.state.text)
+  console.log(Jtext);
+ }
+
+  render(){
   return(
+
    <div className='App'>
     <div className="App App-div">
     <img src={logo} className="App-logo" alt="logo" />
@@ -24,4 +36,5 @@ export default function Dash(){
     </a>
     </div>
    </div>
-)}
+  )}
+}
