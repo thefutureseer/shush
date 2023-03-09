@@ -1,4 +1,5 @@
 ["Spirit-app a.i.r.",
+
 "FIRST RELIGION ON EARTH?",
 " I need to clarify that the concept of \"first religions on earth\" is a subject of ongoing research and debate among scholars, as the development of religion and spirituality is shrouded in prehistory and archaeological evidence is limited. However, based on available information, here is a list of some of the earliest known religious traditions:",
 
@@ -13,6 +14,62 @@
 "9. Taoism - a Chinese philosophy and religion that originated in ancient China around 2,500 years ago, and which emphasizes the pursuit of harmony with nature and the cultivation of inner wisdom.",
 "10. Christianity - a monotheistic religion based on the life and teachings of Jesus of Nazareth, which emerged in the Roman Empire around 2,000 years ago.",
 "    1. Jesus of Nazareth was not from Rome, but was a Jewish preacher and religious leader who lived in the region of Galilee in ancient Israel, which was under Roman occupation at the time. According to Christian tradition, Jesus was born in Bethlehem, raised in Nazareth, and later traveled throughout the region preaching and teaching about God's love and forgiveness. He was eventually arrested, tried, and sentenced to death by the Roman authorities, and was crucified on a hill outside of Jerusalem.","11. Islam - a monotheistic religion founded by the prophet Muhammad in the Arabian Peninsula around 1,400 years ago.",
+
+
+"religions": "[
+  {
+    id: 1,
+    name: 'Animism',
+    description: 'A belief that all things, including objects in nature, have spirits or souls, and should be treated with respect and reverence. This belief is thought to have originated in Africa over 100,000 years ago.'
+  },
+  {
+    id: 2,
+    name: 'Shamanism',
+    description: 'A set of spiritual practices that involve communicating with spirits and other non-physical entities, often through the use of trance states induced by rhythmic drumming or other methods. Shamanism is found in many cultures around the world, and may have originated in Siberia around 30,000 years ago.'
+  },
+  {
+    id: 3,
+    name: 'Ancient Egyptian Religion',
+    description: 'A complex set of beliefs and practices that developed in ancient Egypt around 4,000 years ago, and which involved the worship of a pantheon of gods and goddesses.'
+  },
+  {
+    id: 4,
+    name: 'Hinduism',
+    description: 'A complex and diverse set of religious beliefs and practices that originated in the Indus Valley civilization of ancient India around 4,000 years ago.'
+  },
+  {
+    id: 5,
+    name: 'Judaism',
+    description: 'The monotheistic religion of the Jewish people, dating back to the ancient Israelites in the Middle East around 3,500 years ago.'
+  },
+  {
+    id: 6,
+    name: 'Zoroastrianism',
+    description: 'An ancient Persian religion that originated in Iran around 3,000 years ago, and which influenced many other religions in the region, including Judaism, Christianity, and Islam.'
+  },
+  {
+    id: 7,
+    name: 'Buddhism',
+    description: 'A spiritual tradition that originated in ancient India around 2,500 years ago, and which emphasizes the teachings of the Buddha and the pursuit of enlightenment.'
+  },
+  {
+    id: 8,
+    name: 'Taoism',
+    description: 'A Chinese philosophy and religion that originated in ancient China around 2,500 years ago, and which emphasizes the pursuit of harmony with nature and the cultivation of inner wisdom.'
+  },
+  {
+    id: 9,
+    name: 'Christianity',
+    description: 'A monotheistic religion based on the life and teachings of Jesus of Nazareth, which emerged in the Roman Empire around 2,000 years ago.'
+  },
+  {
+    id: 10,
+    name: 'Islam',
+    description: 'A monotheistic religion founded by the prophet Muhammad in the Arabian Peninsula around 1,400 years ago.'
+  }
+]"
+
+
 "It is difficult to pinpoint an exact timeline, but here are a few examples of early signs of spiritual awareness:",
 
 "1. Burial practices - Archaeological evidence suggests that early humans, as far back as 100,000 years ago, may have had some form of burial practices that suggest a belief in an afterlife or an awareness of the importance of honoring the dead.",
@@ -71,6 +128,7 @@
 "6. Syncretic Religions:","* Cao Dai","",
 "7. Afro-Caribbean Religions:","* Rastafarianism",
 "8. Iranian Religions:","* Zoroastrianism","* Bah\u00e1'\u00ed Faith (Bahá'í Faith)",
-"9. Neopagan Religions:", "* Wicca", "* Druidry", "* Asatru", "*drag and drop and hide religions."]
+"9. Neopagan Religions:", "* Wicca", "* Druidry", "* Asatru", "*drag and drop and hide religions."
+}]
 
 //no comment: https://www.htmlstrip.com/string-text-to-json-list-to-json-converter
