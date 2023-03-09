@@ -1,21 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
 import logo from '../images/logo.svg';
 import '../css/App.css'
 import text from '../text/basics.txt';
 
-export default class Dash extends Component{
- constructor(props) {
-  super(props);
-  this.state = {}
- };
- componentDidMount () {
-  const Jtext = JSON.stringify(this.state.text)
-  console.log(Jtext);
- }
+export default function Dash(){
 
-  render(){
   return(
-
    <div className='App'>
     <div className="App App-div">
     <img src={logo} className="App-logo" alt="logo" />
@@ -36,5 +26,4 @@ export default class Dash extends Component{
     </a>
     </div>
    </div>
-  )}
-}
+)}
