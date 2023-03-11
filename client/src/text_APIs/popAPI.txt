@@ -1,0 +1,32 @@
+Spirit too
+1. Christianity: Bible API - provides access to multiple translations of the Bible, along with tools for searching and analyzing the text.
+2. Islam: IslamicFinder API - provides information on Islamic events, prayer times, and mosque locations, as well as Islamic news and articles.
+3. Judaism: Jewish Calendar API - provides information about Jewish holidays and other important dates, based on the Hebrew calendar.
+4. Hinduism: Hindu Calendar API - provides information about Hindu holidays and other important dates, based on the Hindu calendar.
+5. Buddhism: Buddhist Geeks API - provides access to a variety of resources related to Buddhism, including talks, articles, and podcasts.
+6.1. Sikhism: SikhNet Gurbani Media Center API - provides access to the Sikh scriptures and multimedia content, including live kirtan and audio recordings.
+6.2. Sikhism: Sikh Encyclopedia API - provides access to a comprehensive encyclopedia of Sikhism, including articles on Sikh history, culture, and religion.
+7. Taoism: TaoBao API - provides access to Taoist texts and philosophy, as well as other resources related to Chinese culture.
+8. Shintoism: Shinto Shrine API - provides information on Shinto shrines in Japan, including their locations and historical significance.
+9. Zoroastrianism: Avesta API - provides access to the Avesta, the primary collection of sacred texts in Zoroastrianism.
+10. Jainism: Jain Scriptures API - provides access to the Jain scriptures, including the Agamas and other important texts.
+
+11. Interfaith: Beliefnet API - provides content and resources related to various religious traditions, including news, prayers, and inspiration.
+12. Atheism: Open Atheist Network API - provides access to content and resources related to atheism, including blogs, podcasts, and news.
+13.
+14. Scientology: Scientology.org API - provides access to resources related to Scientology, including articles, videos, and books.
+15. Wicca: Wicca API - provides access to resources related to Wicca, including spells, rituals, and divination tools.
+16. Mormonism: LDS Scriptures API - provides access to the standard works of The Church of Jesus Christ of Latter-day Saints, including the Book of Mormon, Doctrine and Covenants, and Pearl of Great Price.
+17. Bahá'í Faith: Bahai Reference Library API - provides access to the sacred texts and writings of the Bahá'í Faith, as well as other resources related to the religion.
+18. Santería: Orisha API - provides access to information on the orishas, the deities and spirits of Santería, including their characteristics and correspondences.
+19. Shamanism: Shamanic Healing API - provides access to resources related to shamanic healing and practices, including guided meditations and ceremonies.
+20. Druidry: Druid API - provides access to resources related to Druidry, including information on the Druid tradition, its history, and its practices.
+21.
+22. Paganism: Pagan Federation API - provides access to resources related to paganism, including articles, events, and a directory of pagan groups and organizations.
+23. Taoism: Taoism.net API - provides access to resources related to Taoism, including articles, books, and translations of Taoist texts.
+24. Vodou: Vodou API - provides access to resources related to Vodou, including information on the deities, rituals, and history of the religion.
+
+other.1. New Age: Astrology API - provides access to astrology charts and predictions based on a variety of factors, including birth date and time.
+      Its important to note: Astrology is not a religion, but rather a system of beliefs and practices that are often associated with spirituality and divination. Astrology is based on the idea that there is a correlation between the positions of celestial objects and events or personality traits on Earth. While astrology has some religious or spiritual significance to some people, it is not considered a formal religion with established beliefs, rituals, or practices. However, some religions or spiritual traditions do incorporate astrology or astrological principles into their beliefs or practices, such as Hinduism or some New Age belief systems.
+other.2. Sufism: Sufi Poetry API - provides access to a collection of Sufi poetry and literature, including works by Rumi, Hafiz, and other famous Sufi poets.
+      Its important to note: Poetry is not a religion, but rather a form of creative expression that can be used to explore a wide range of themes and ideas, including religious or spiritual ones. Poetry can be a way for individuals to express their beliefs or experiences of the divine, but it is not a formal system of beliefs, practices, or rituals that constitute a religion. However, poetry has played a role in the religious traditions of various cultures and can be found in sacred texts, hymns, and other forms of religious literature.

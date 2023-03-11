@@ -1,6 +1,6 @@
 import '../css/App.css';
 import Dash from './Dash';
-import text from '../text/basics.txt';
+import text from '../text_APIs/basics.txt';
 import StatusBar from './StatusBar';
 
 function App() {

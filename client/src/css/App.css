@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+/* DASH */
+.drag-drop-hide {
+  border: solid 3px;
+}
+
+.text-inside {
+  margin-left: 23em;
+}
