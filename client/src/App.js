@@ -1,7 +1,7 @@
 import '../css/App.css';
-import Dash from './Dash';
+import Dash from './components/Dash';
 import text from '../text_APIs/basics.txt';
-import StatusBar from './StatusBar';
+import StatusBar from './components/StatusBar';
 
 function App() {
   const jsonData = JSON.stringify(text);
