@@ -1,50 +1,39 @@
 const express = require('express');
-const { graphqlHTTP } = require('express-graphql');
-const { makeExecutableSchema } = require('graphql-tools');
-const mongoose = require('mongoose');
-require('dotenv').config();
-const fs = require('fs');
+const { ApolloServer } = require('apollo-server-express');
+const schema = require('./graphql/schema.js');
+const userRoutes = require('./routes/user');
+const { authenticate } = require('./utils/auth');
+// const db = require('./config/database');
 
-const resolvers = require('./graphql/resolvers');
-
+// Set up Express app
 const app = express();
+
+// Middleware parsing
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 const port = process.env.PORT || 3000;
 
-// Load type definitions from schema file
-const typeDefs = fs.readFileSync('./models/typedefs/typedefs.graphql', 'utf8');
-
-// Connect to MongoDB database
-mongoose.connect(process.env.DB_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-}).then(() => console.log('Connected to database'));
-
-
-// Create executable schema with type definitions and resolvers
-const schema = makeExecutableSchema({ typeDefs, resolvers });
-
-// Create GraphQL route with schema and GraphiQL interface
-app.use('/graphql', graphqlHTTP({
-  schema: schema,
-  graphiql: true,
-  // GraphQL Playground
-  // Uncomment the following line to enable GraphQL Playground
-  // To access it, navigate to http://localhost:{PORT}/graphql
-  // playground: true,
-}));
-
-app.get('/', (req, res) => {
-  res.send('<h1>hello spirit<h1>');
-})
-
-// Altair GraphQL Client
-// Uncomment the following lines to enable Altair GraphQL Client
-// To access it, navigate to http://localhost:{PORT}/altair
-// const { altairExpress } = require('altair-express-middleware');
-// app.use('/altair', altairExpress({ endpointURL: '/graphql' }));
-
-// Start server
-app.listen(port, () => {
-  console.log(`Server started on port ${port}`);
+// Set up Apollo server
+const server = new ApolloServer({
+  schema,
+  playground: true,
+  context: ({ req }) => ({
+    user: authenticate(req)
+  })
 });
+
+async function startServer() {
+  await server.start();
+  server.applyMiddleware({ app });
+}
+
+startServer();
+// server.applyMiddleware({ app });
+
+// Set up Express routes
+app.use('/api/users', userRoutes);
+
+// start server
+startServer = require('./config/server');
+startServer(app, port);
