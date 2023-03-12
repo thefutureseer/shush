@@ -1,0 +1,24 @@
+example of an app inside of an app. Uber/uberEats
+uber-app/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   ├── com/
+│   │   │   │   │   ├── uber/
+│   │   │   │   │   │   ├── uberapp/
+│   │   │   │   │   │   │   ├── MainActivity.java
+│   │   │   │   │   │   │   ├── UberService.java
+│   │   │   │   │   │   │   ├── UberEATS/
+│   │   │   │   │   │   │   │   ├── UberEATSActivity.java
+│   │   │   │   │   │   │   │   ├── UberEATSFragment.java
+│   │   │   │   │   │   │   │   ├── UberEATSService.java
+│   │   │   │   ├── res/
+│   │   │   │   │   ├── layout/
+│   │   │   │   │   │   ├── activity_main.xml
+│   │   │   │   │   │   ├── fragment_ubereats.xml
+│   │   │   │   │   ├── values/
+│   │   │   │   │   │   ├── strings.xml
+│   ├── AndroidManifest.xml
+├── build.gradle
+├── settings.gradle
