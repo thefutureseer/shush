@@ -16,6 +16,13 @@ const userSchema = new mongoose.Schema({
   }
 });
 
+//pre middleware to log the data being saved
+userSchema.pre('save', function (next) {
+  console.log(`Saving user data: ${JSON.stringify(this.toJSON())}`);
+  next();
+});
+
 const User = mongoose.model('User', userSchema);
 
 module.exports = User;
+
