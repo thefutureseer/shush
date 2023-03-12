@@ -29,7 +29,6 @@ async function startServer() {
 }
 
 startServer();
-// server.applyMiddleware({ app });
 
 // Set up Express routes
 app.use('/api/users', userRoutes);
