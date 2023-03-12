@@ -1,0 +1,33 @@
+const { gql } = require('apollo-server-express');
+
+console.log('Loading type definitions...');
+
+const typeDefs = gql`
+  type User {
+    id: ID!
+    email: String!
+    password: String!
+  }
+
+  type Query {
+    users: [User!]!
+    user(id: ID!): User
+    hello: String
+  }
+
+  type Mutation {
+    register(name: String!, email: String!, password: String!): User
+    login(email: String!, password: String!): String
+    updateUser(id: ID!, name: String!, email: String!, password: String!): User
+    deleteUser(id: ID!): User
+  }
+
+#  @name directive to add the name "UserObject" to 
+#  the User object type definition. Extend keyword 
+#  to extend the existing User type definition with 
+#  the new @name directive.
+  directive @name(name: String!) on OBJECT
+  extend type User @name(name: "UserObject")
+`;
+
+module.exports = typeDefs;
