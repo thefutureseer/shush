@@ -4,6 +4,7 @@ const schema = require('./graphql/schema.js');
 const userRoutes = require('./routes/user');
 const { authenticate } = require('./utils/auth');
 // const db = require('./config/database');
+const cors = require('cors');
 
 // Set up Express app
 const app = express();
@@ -12,7 +13,10 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const port = process.env.PORT || 3000;
+//cors for cross origin
+app.use(cors())
+
+const port = process.env.PORT || 5000;
 
 // Set up Apollo server
 const server = new ApolloServer({
