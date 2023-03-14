@@ -1,3 +1,10 @@
+Example: the Facebook app contains the main features of 
+the Facebook platform, while the Facebook Messenger app 
+provides a separate messaging functionality. Users can 
+access Facebook Messenger through the Facebook app, 
+or they can download the standalone Messenger app for 
+a more streamlined messaging experience.
+
 Facebook Messenger App/
 ├── app/
 │ ├── src/
@@ -15,5 +22,3 @@ Facebook Messenger App/
 │ ├── AndroidManifest.xml
 ├── build.gradle
 ├── settings.gradle
-
-In this example, the Facebook app contains the main features of the Facebook platform, while the Facebook Messenger app provides a separate messaging functionality. Users can access Facebook Messenger through the Facebook app, or they can download the standalone Messenger app for a more streamlined messaging experience.

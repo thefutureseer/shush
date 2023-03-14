@@ -1,0 +1,33 @@
+shush app
+serving the holy spirit happ
+app/
+  - controllers/
+    - restaurantController.js
+    - orderController.js
+    - ...
+  - models/
+    - restaurant.js
+    - order.js
+    - ...
+  - routes/
+    - restaurantRoutes.js
+    - orderRoutes.js
+    - ...
+  - services/
+    - restaurantService.js
+    - orderService.js
+    - ...
+- config/
+  - database.js
+  - messageQueue.js (possibly connects to the RabbitMQ message queue using amqplib.)
+  - ...
+- public/
+  - css/
+  - js/
+  - img/
+- views/
+  - layouts/
+  - pages/
+  - partials/
+- server.js
+- package.json

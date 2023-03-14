@@ -2,8 +2,17 @@ const express = require('express');
 const router = express.Router();
 const User = require('../models/mongooseUser');
 
-router.get('/', (req, res) => {
-  // Get all users from MongoDB
+// GET /api/users - Retrieves a list of users
+router.get('/', async (req, res, next) => {
+  try {
+    // Retrieve list of users from database or other data source
+    const users = await User.find();
+    // Respond with list of users
+    res.json(users);
+  } catch (err) {
+    // Handle errors
+    next(err);
+  }
 });
 
 router.post('/register', (req, res) => {

@@ -32,6 +32,9 @@ startServer();
 
 // Set up Express routes
 app.use('/api/users', userRoutes);
+// app.use('/', (req, res) => {
+//   res.send("hello holy spirit");
+// })
 
 // start server
 startServer = require('./config/server');
