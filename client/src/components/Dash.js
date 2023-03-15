@@ -1,31 +1,38 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 // import logo from '../images/logo.svg';
 import '../css/App.css'
 import religionsData from '../text_APIs/religionApI';
+// import DataFetcher from './DataFetcher';
+import ShowApi from './ShowApi';
 
 export default function Dash(){
-    const [religions, setReligions] = useState([]);
-  
-    useEffect(() => {
-      //if cache then fetch() from cache else setReligions
-      setReligions(religionsData);
-    }, []);
- 
-    return (
-      <div >
-        <h1>Drag, drop and hide:</h1>
-        <ul>
-          {religions.map(religion => (
-            <li className='drag-drop-hide' key={religion.id}>
-              <h2 className='text-inside'>{religion.name}</h2>
-              <p className='text-inside'>{religion.description}</p>
-            </li>
-          ))}
-        </ul>
-      </div>
-    );
-  }
-  
+ return (<>
+    <h1>Dash</h1>
+    <ShowApi element ={religionsData}/>
+   </>)
+}
+
+
+// const [religions, setReligions] = useState([]);
+
+// useEffect(() => {
+//   //if cache then fetch() from cache else setReligions
+//   setReligions(religionsData);
+// }, []);
+
+// return (
+//   <div >
+//     <h1>Drag, drop and hide:</h1>
+//     <ul>
+//       {religions.map(religion => (
+//         <li className='drag-drop-hide' key={religion.id}>
+//           <h2 className='text-inside'>{religion.name}</h2>
+//           <p className='text-inside'>{religion.description}</p>
+//         </li>
+//       ))}
+//     </ul>
+//   </div>
+// );
 
 // export default function Dash(){
 

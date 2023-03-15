@@ -26,12 +26,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thefutureseer/express-gql-nosql.git"
+    "url": "git+https://github.com/thefutureseer/shush.git"
   },
   "author": "spirit",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thefutureseer/express-gql-nosql/issues"
+    "url": "https://github.com/thefutureseer/shush/issues"
   },
-  "homepage": "https://github.com/thefutureseer/express-gql-nosql#readme"
+  "homepage": "https://github.com/thefutureseer/shush#readme"
 }

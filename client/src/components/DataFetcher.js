@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-{/* <DataFetcher endpoint='/text_APIs/religionApI.json'/> */}
 
  export default function DataFetcher({endpoint}) {
   const [data, setData] = useState([]);
@@ -8,7 +7,7 @@ import React, {useEffect, useState} from 'react';
     () => {
      fetch(endpoint)
        .then(response => response.json())
-       .then(dat=>{ console.log(dat); setData(dat)});
+       .then(dat=>{ setData(dat)});
       
      }, [endpoint]
   );
@@ -20,7 +19,8 @@ import React, {useEffect, useState} from 'react';
         {data.map(info => (
           <li className='drag-drop-hide' key={info.id}>
             <h2 className='text-inside'>{info.name}</h2>
-            <p className='text-inside'>{info.description}</p>
+            {/* <p className='text-inside'>{info.description}</p>
+            <p className='text-inside'>{info.email}</p> */}
           </li>
         ))}
       </ul>
