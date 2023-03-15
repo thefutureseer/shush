@@ -51,5 +51,5 @@ app.use('/api/users', userRoutes);
 // })
 
 // start server
-startServer = require('./config/server');
+startServer = require('../server');
 startServer(app, port);
