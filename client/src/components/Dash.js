@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import logo from '../images/logo.svg';
+// import logo from '../images/logo.svg';
 import '../css/App.css'
 import religionsData from '../text_APIs/religionApI';
 
