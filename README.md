@@ -1,7 +1,7 @@
 # shush
 DoorDash for your spirit
 
-Whip- 
+Wip- 
 # Welcome to our spiritual experience app, currently under development!
 
 ## Our app is designed to provide a platform for people of all beliefs and backgrounds to connect with each other and explore their spiritual journeys together. Here's what you can expect from our app:
