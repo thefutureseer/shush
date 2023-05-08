@@ -3,7 +3,7 @@ import React from 'react';
 import '../css/App.css'
 import religionsData from '../text_APIs/religionApI';
 // import DataFetcher from './DataFetcher';
-import ShowApi from './ShowApi';
+import ShowApi from '../services/ShowApi';
 
 export default function Dash(){
  return (<>

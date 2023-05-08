@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/App.css'
 // import DataFetcher from '../components/DataFetcher';{/* <DataFetcher endpoint='/text_APIs/religionApI.json'/> */}
-import ShowApi from '../components/ShowApi'; 
+import ShowApi from '../services/ShowApi'; 
 
 
 export default function MessageBoard(){
