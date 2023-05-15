@@ -1,5 +1,5 @@
 # shush
-DoorDash for your spirit
+"Its like; DoorDash, Discord and Facebook for your spirit."
 
 Wip- 
 # Welcome to our spiritual experience app, currently under development!
