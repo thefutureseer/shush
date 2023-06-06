@@ -12,4 +12,7 @@ Wip-
 
 - Connect with spiritual leaders: Our app also provides a way for users to connect with spiritual leaders and mentors, whether it be through text, call, Zoom, or in-person meetings. We believe that having access to guidance and support from experienced practitioners can be invaluable in your spiritual journey.
 
+- The Confession room: An integral part of our spiritual app, aimed at providing a secure and private platform for users to confess their sins, seek forgiveness, and receive guidance. By using the Confession App, users can ease their minds and free their souls in a convenient and accessible manner. This app serves as a means for users to connect with their faith, find solace, and seek spiritual rejuvenation.
+
+
 ### We're still working on some of the features of our app, but we're excited to bring this platform to you soon. Stay tuned for updates and news about our launch!
